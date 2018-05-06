@@ -1,0 +1,25 @@
+@media all and (max-width:1170px) {
+    #header .background1 {
+        display: none;
+    }
+    #header .background2 {
+        display: block;
+    }
+}
+
+@media all and (max-width:992px) {
+    #header .title {
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 0;
+        color: black;
+    }
+    #header .background1 {
+        background-size: 100% 50%;
+        display: block;
+    }
+    #header .background2 {
+        display: none;
+    }
+}
